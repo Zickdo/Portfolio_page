@@ -3,63 +3,101 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="My beautiful portfolio" />
-    <meta name="tags" content="HTML; CSS , JS , REACT , Angular, NODEJS..." />
-    <link rel="stylesheet" href="./styles.css" />
-    <title>Isaac-David Ochomma | Portfolio</title>
+    <meta name="description" content="Here is my portfolio page." />
+    <meta
+      name="keywords"
+      content="Isaac-David; portfolio; web development, projects, Ochomma "
+    />
+    <meta name="Author" content="Isaac-David" />
+    <!--  Open graph /social meta tags  -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Isaac-David's Portfolio" />
+    <meta property="og:description" content="Here is my portfolio page." />
+    <meta property="og:image" content="image.jpg" />
+    <meta property="og:url" content="#" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <!--Top section - header  -->
     <header>
-      <h1><a href="#">Isaac-David Ochomma</a></h1>
+      <h1>Isaac-David Ochomma</h1>
+      <p>
+        I'm an aspiring web developer. Right now im in high school and I can not
+        take it
+      </p>
       <nav>
         <ul>
-          <li><a href="#HOME">HOME</a></li>
-          <li><a href="#ABOUT">About</a></li>
-          <li><a href="#PROJECTS">PROJECTS</a></li>
-          <li><a href="#CONTACT">CONTACT</a></li>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Contact">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <!--Main section - main  -->
     <main>
-      <section id="HOME">
-        <!-- Hero section -->
-        <h2>Welcome to my portfolio</h2>
-        <img src="" alt="Isaac-David Ochomma's picture" />
-      </section>
-      <section id="ABOUT">
-        <h2>about me</h2>
+      <img src="nedladdning.jpg" alt="me" />
+      <section class="" id="home">
+        <h2>Welcome to My Portfolio</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime
-          quidem mollitia ex consectetur iure? Officiis odit alias vero, aperiam
-          autem cupiditate ex, recusandae perferendis consequuntur eveniet iusto
-          sint mollitia? Culpa delectus saepe ducimus ea qui provident error
-          porro suscipit numquam!
+          This is the home section of my portfolio. Here you can find an
+          overview of my work and skills.
         </p>
       </section>
-      <section id="PROJECTS">
-        <h2>my projects</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime
-          quidem mollitia ex consectetur iure? Officiis odit alias vero, aperiam
-          autem cupiditate ex, recusandae perferendis consequuntur eveniet iusto
-          sint mollitia? Culpa delectus saepe ducimus ea qui provident error
-          porro suscipit numquam!
-        </p>
+      <section class="" id="about">
+        <h2>My hobbies</h2>
+        <ol>
+          <li>Gaming</li>
+          <li>Programming</li>
+          <li>Reading</li>
+          <li>Watching movies</li>
+        </ol>
       </section>
-      <section id="CONTACT">
-        <h2>contact me</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime
-          quidem mollitia ex consectetur iure? Officiis odit alias vero, aperiam
-          autem cupiditate ex, recusandae perferendis consequuntur eveniet iusto
-          sint mollitia? Culpa delectus saepe ducimus ea qui provident error
-          porro suscipit numquam!
-        </p>
+      <section class="" id="projects">
+        <h2>Favorite foods</h2>
+        <ol>
+          <li>Pizza</li>
+          <li>Burgers</li>
+          <li>Sushi</li>
+          <li>Pasta</li>
+        </ol>
+      </section>
+      <section id="skills">
+        <dl>
+          <dt>Technical terms</dt>
+          <dd>HTML: HyperText Markup Language</dd>
+          <dd>CSS: Cascading Style Sheets</dd>
+          <dd>JavaScript: A programming language for the web</dd>
+        </dl>
+      </section>
+      <section id="Background music">
+        <h2>Background music</h2>
+        <audio controls autoplay loop muted>
+          <source
+            src="./audio/male-death-scream-horror-352706.mp3"
+            type="audio/mpeg"
+          />
+        </audio>
+      </section>
+      <section>
+        <h2>Video</h2>
+        <video width="600px" height="400px" controls>
+          <source
+            src="./video/2053100-uhd_3840_2160_30fps.mp4"
+            type="video/mp4"
+          />
+          <source
+            src="./video/3121459-uhd_3840_2160_24fps.mp4"
+            type="video/mp4"
+          />
+        </video>
       </section>
     </main>
-    <!-- Footer section- footer -->
-    <footer></footer>
+
+    <footer>Isaac-David</footer>
   </body>
 </html>
