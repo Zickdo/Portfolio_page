@@ -15,6 +15,7 @@
     <meta property="og:description" content="Here is my portfolio page." />
     <meta property="og:image" content="image.jpg" />
     <meta property="og:url" content="#" />
+    <link rel="icon" type="image/x-icon" href="#" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -27,10 +28,6 @@
   <body>
     <header>
       <h1>Isaac-David Ochomma</h1>
-      <p>
-        I'm an aspiring web developer. Right now im in high school and I can not
-        take it
-      </p>
       <nav>
         <ul>
           <li><a href="#Home">Home</a></li>
@@ -40,16 +37,29 @@
       </nav>
     </header>
     <main>
-      <img src="nedladdning.jpg" alt="me" />
       <section class="" id="home">
-        <h2>Welcome to My Portfolio</h2>
+        <h1>Welcome to My Portfolio</h1>
         <p>
           This is the home section of my portfolio. Here you can find an
           overview of my work and skills.
         </p>
+        <img src="#" alt="me" />
+      </section>
+      <section id="skills">
+        <dl>
+          <dt><h2>Skills</h2></dt>
+          <dd>HTML: HyperText Markup Language</dd>
+          <dd>CSS: Cascading Style Sheets</dd>
+          <dd>JavaScript: A programming language for the web</dd>
+        </dl>
       </section>
       <section class="" id="about">
-        <h2>My hobbies</h2>
+        <h2>About me</h2>
+        <p>
+          I'm a high school student with a passion for web development. I like
+          researching everyday problems and solving them with code.
+        </p>
+        <h3>Hobbies</h3>
         <ol>
           <li>Gaming</li>
           <li>Programming</li>
@@ -59,6 +69,7 @@
       </section>
       <section class="" id="projects">
         <h2>Favorite foods</h2>
+        <p>Here are some of my favorite foods:</p>
         <ol>
           <li>Pizza</li>
           <li>Burgers</li>
@@ -66,16 +77,16 @@
           <li>Pasta</li>
         </ol>
       </section>
-      <section id="skills">
-        <dl>
-          <dt>Technical terms</dt>
-          <dd>HTML: HyperText Markup Language</dd>
-          <dd>CSS: Cascading Style Sheets</dd>
-          <dd>JavaScript: A programming language for the web</dd>
-        </dl>
+      <section>
+        <h2>Contact me</h2>
+        <address>
+          You can reach me via email at
+          <a href="mailto:isaacochomma@gmail.com">isaacochomma@gmail.com</a>
+        </address>
       </section>
       <section id="Background music">
         <h2>Background music</h2>
+        <p>Enjoy some background music while you browse my portfolio.</p>
         <audio controls autoplay loop muted>
           <source
             src="./audio/male-death-scream-horror-352706.mp3"
@@ -85,6 +96,7 @@
       </section>
       <section>
         <h2>Video</h2>
+        <p>Here is a sample video for you to watch.</p>
         <video width="600px" height="400px" controls>
           <source
             src="./video/2053100-uhd_3840_2160_30fps.mp4"
