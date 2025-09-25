@@ -43,7 +43,7 @@
           This is the home section of my portfolio. Here you can find an
           overview of my work and skills.
         </p>
-        <img src="#" alt="me" />
+        <img src="../Portfolio_page/Images/IMG_9496.jpg" alt="me" />
       </section>
       <section id="skills">
         <dl>
@@ -66,6 +66,12 @@
           <li>Reading</li>
           <li>Watching movies</li>
         </ol>
+        <h2>Favoritfilmer</h2>
+        <ol>
+          <li>A happy place 2020</li>
+          <li>The matrix</li>
+          <li>Inception</li>
+        </ol>
       </section>
       <section class="" id="projects">
         <h2>Favorite foods</h2>
@@ -78,16 +84,25 @@
         </ol>
       </section>
       <section>
-        <h2>Contact me</h2>
-        <address>
-          You can reach me via email at
-          <a href="mailto:isaacochomma@gmail.com">isaacochomma@gmail.com</a>
-        </address>
+        <h2>Contact Form</h2>
+        <form>
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" /><br /><br />
+
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" /><br /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="4" cols="40"></textarea
+          ><br /><br />
+
+          <input type="submit" value="Send" />
+        </form>
       </section>
       <section id="Background music">
         <h2>Background music</h2>
         <p>Enjoy some background music while you browse my portfolio.</p>
-        <audio controls autoplay loop muted>
+        <audio controls autoplay loop>
           <source
             src="./audio/male-death-scream-horror-352706.mp3"
             type="audio/mpeg"
@@ -99,17 +114,19 @@
         <p>Here is a sample video for you to watch.</p>
         <video width="600px" height="400px" controls>
           <source
-            src="./video/2053100-uhd_3840_2160_30fps.mp4"
-            type="video/mp4"
-          />
-          <source
-            src="./video/3121459-uhd_3840_2160_24fps.mp4"
+            src="./video/3121459-uhd_3840_2160_24fps (1).mp4"
             type="video/mp4"
           />
         </video>
       </section>
     </main>
-
-    <footer>Isaac-David</footer>
+    <footer>
+      <p>
+        <i>To contact me:</i>
+        <a href="mailto:isaacdavid.ochomma@example.com"
+          >isaacdavid.ochomma@example.com</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
