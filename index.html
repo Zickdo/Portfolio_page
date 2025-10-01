@@ -4,80 +4,135 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Here is my portfolio page." />
-    <meta name="keywords" content="Isaac-David; portfolio; web development, projects, Ochomma " />
+    <meta
+      name="keywords"
+      content="Isaac-David; portfolio; web development, projects, Ochomma "
+    />
     <meta name="Author" content="Isaac-David" />
     <!--  Open graph /social meta tags  -->
-      <meta property="og:type" content="website" />
+    <meta property="og:type" content="website" />
     <meta property="og:title" content="Isaac-David's Portfolio" />
     <meta property="og:description" content="Here is my portfolio page." />
     <meta property="og:image" content="image.jpg" />
     <meta property="og:url" content="#" />
-    <title>Document</title>
+    <title>Isaac-David's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <h1>Isaac-David Ochomma</h1>
       <p>
-        I'm an aspiring web developer. Right now im in high school and I can not
-        take it
+        I'm an aspiring web developer. Right now I'm in high school and learning
+        new things every day!
       </p>
       <nav>
         <ul>
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Contact">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <img src="nedladdning.jpg" alt="me" />
-      <section class="" id="home">
+      <section id="home">
         <h2>Welcome to My Portfolio</h2>
+        <img src="nedladdning.jpg" alt="Profile picture of Isaac-David" />
         <p>
           This is the home section of my portfolio. Here you can find an
           overview of my work and skills.
         </p>
+        <p>
+          Visit my favorite website:
+          <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener"
+            >freeCodeCamp</a
+          >
+        </p>
       </section>
-      <section class="" id="about">
-        <h2>My hobbies</h2>
-        <ol>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I enjoy learning about technology, playing games, and reading books. I
+          am passionate about web development and hope to build amazing projects
+          in the future.
+        </p>
+        <h3>My Hobbies</h3>
+        <ul>
           <li>Gaming</li>
           <li>Programming</li>
           <li>Reading</li>
           <li>Watching movies</li>
-        </ol>
-      </section>
-      <section class="" id="projects">
-        <h2>Favorite foods</h2>
+        </ul>
+        <h3>My Top 3 Favorite Movies</h3>
         <ol>
-          <li>Pizza</li>
-          <li>Burgers</li>
-          <li>Sushi</li>
-          <li>Pasta</li>
+          <li>Inception</li>
+          <li>Interstellar</li>
+          <li>The Matrix</li>
         </ol>
       </section>
-      <dl>
-        <dt>Technical terms</dt>
-        <dd>HTML: HyperText Markup Language</dd>
-        <dd>CSS: Cascading Style Sheets</dd>
-        <dd>JavaScript: A programming language for the web</dd>
-      </dl>
-      <section id="Background music">
-        <h2>Background music</h2>
-        <audio controls autoplay loop muted>
+      <section id="schedule">
+        <h2>Weekly Schedule</h2>
+        <table border="1">
+          <caption>
+            My Weekly Activities
+          </caption>
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Activity</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>School &amp; Coding</td>
+            </tr>
+            <tr>
+              <td>Tuesday</td>
+              <td>Gaming</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>Reading</td>
+            </tr>
+            <tr>
+              <td>Thursday</td>
+              <td>Movies</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>School &amp; Coding</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="terms">
+        <h2>Technical Terms</h2>
+        <dl>
+          <dt>HTML</dt>
+          <dd>HyperText Markup Language</dd>
+          <dt>CSS</dt>
+          <dd>Cascading Style Sheets</dd>
+          <dt>JavaScript</dt>
+          <dd>A programming language for the web</dd>
+        </dl>
+      </section>
+      <section id="media">
+        <h2>Background Music</h2>
+        <audio controls loop>
           <source
             src="./audio/male-death-scream-horror-352706.mp3"
             type="audio/mpeg"
           />
-
-      </section>
-      <section>
+          Your browser does not support the audio element.
+        </audio>
         <h2>Video</h2>
-        <video width="600px" height="400px" controls>
+        <video width="600" height="400" controls>
           <source
             src="./video/2053100-uhd_3840_2160_30fps.mp4"
             type="video/mp4"
@@ -86,12 +141,47 @@
             src="./video/3121459-uhd_3840_2160_24fps.mp4"
             type="video/mp4"
           />
+          Your browser does not support the video tag.
         </video>
       </section>
-
+      <section id="external">
+        <h2>My Favorite Place</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.0739644797!2d13.0099117!3d55.604981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a1f6c2b2c7e3%3A0x4019078290c0a60!2sMalm%C3%B6%2C%20Sweden!5e0!3m2!1sen!2sse!4v1696240000000!5m2!1sen!2sse"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Google Map of Malmö"
+        ></iframe>
+        <h2>Favorite Song (YouTube)</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        >
+        </iframe>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name&nbsp;<span>&#x1F464;</span>:</label>
+          <input type="text" id="name" name="name" required /><br /><br />
+          <label for="email">Email&nbsp;<span>&#x2709;</span>:</label>
+          <input type="email" id="email" name="email" required /><br /><br />
+          <label for="message">Message&nbsp;<span>&#x1F4AC;</span>:</label>
+          <textarea id="message" name="message" rows="4" required></textarea
+          ><br /><br />
+          <button type="submit">Send</button>
+        </form>
+      </section>
     </main>
-
-    <footer>Isaac-David</footer>
-    <footer>2025</footer>
+    <footer>&copy; Isaac-David Ochomma &mdash; 2025</footer>
   </body>
 </html>
